@@ -130,6 +130,7 @@ You Created. --> Save.
 13 # IF you want to SSH to Kubernetes Master or Nodes Created by KOPS. You can SSH From KOPS_Server
 
 sh -i ~/.ssh/id_rsa ubuntu@ipAddress
-ssh -i ~/.ssh/id_rsa ubuntu@3.90.203.23
+ssh -i ~/.ssh/id_rsa ubuntu@3.131.93.32
+ssh -i ~/.ssh/id_rsa ubuntu@172.20.44.221
   
 ``
