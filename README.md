@@ -81,7 +81,7 @@ You Created. --> Save.
 	
 	# Give Unique Name And S3 Bucket which you created.
 	export NAME=class.k8s.local
-	export KOPS_STATE_STORE=s3://kopsclass
+	export KOPS_STATE_STORE=s3://class29bb    #Here after you vi here with vi .bashrc come to export kops 2nd column in the end to put your bucket name you created in your kop server. 
  
     source .bashrc
 	
