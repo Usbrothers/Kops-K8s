@@ -114,8 +114,8 @@ You Created. --> Save.
 
 # 11) connect to the master node
     sh -i ~/.ssh/id_rsa ubuntu@ipAddress
-    ssh -i ~/.ssh/id_rsa ubuntu@18.188.213.224
-    ssh -i ~/.ssh/id_rsa ubuntu@172.20.37.23172.20.37.23
+    ssh -i ~/.ssh/id_rsa ubuntu@3.137.154.52
+    ssh -i ~/.ssh/id_rsa ubuntu@172.20.50.44
 # 11) To list nodes
 
 	  kubectl get nodes 
@@ -130,7 +130,7 @@ You Created. --> Save.
 13 # IF you want to SSH to Kubernetes Master or Nodes Created by KOPS. You can SSH From KOPS_Server
 
 sh -i ~/.ssh/id_rsa ubuntu@ipAddress
-ssh -i ~/.ssh/id_rsa ubuntu@18.188.213.224
-ssh -i ~/.ssh/id_rsa ubuntu@
+ssh -i ~/.ssh/id_rsa ubuntu@3.137.154.52
+ssh -i ~/.ssh/id_rsa ubuntu@172.20.50.44
   
 ``
